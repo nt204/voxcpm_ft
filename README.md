@@ -1,3 +1,5 @@
+%cd /kaggle/working/voxcpm_ft/voxcpm
+
 !pip install -e .
 
 !python -c "from huggingface_hub import snapshot_download; snapshot_download('JayLL13/VoxCPM-1.5-VN', local_dir='pretrained/VoxCPM-1.5-VN')"
