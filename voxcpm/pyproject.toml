@@ -1,10 +1,12 @@
 [build-system]
-requires = ["setuptools>=64", "wheel", "setuptools_scm>=8"]
+#requires = ["setuptools>=64", "wheel", "setuptools_scm>=8"]
+requires = ["setuptools>=64", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
 name = "voxcpm"
-dynamic = ["version"]
+#dynamic = ["version"]
+version = "0.1.0"
 description = "VoxCPM: Tokenizer-Free TTS for Context-Aware Speech Generation and True-to-Life Voice Cloning"
 readme = "README.md"
 license = "Apache-2.0"
